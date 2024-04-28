@@ -6,16 +6,25 @@ date: "Mar 17 2024"
 
 ---
 
+로렘 입숨(lorem ipsum; 줄여서 립숨, lipsum)은 출판이나 그래픽 디자인 분야에서 폰트, 타이포그래피, 레이아웃 같은 그래픽 요소나 시각적 연출을 보여줄 때 사용하는 표준 채우기 텍스트로, 최종 결과물에 들어가는 실제적인 문장 내용이 채워지기 전에 시각 디자인 프로젝트 모형의 채움 글로도 이용된다. 이런 용도로 사용할 때 로렘 입숨을 그리킹(greeking)이라고도 부르며, 때로 로렘 입숨은 공간만 차지하는 무언가를 지칭하는 용어로도 사용된다.
+
+로렘 입숨은 전통 라틴어와 닮은 점 때문에 종종 호기심을 유발하기도 하지만 그 이상의 의미를 담지는 않는다. 문서에서 텍스트가 보이면 사람들은 전체적인 프레젠테이션보다는 텍스트에 담긴 뜻에 집중하는 경향이 있어서 출판사들은 서체나 디자인을 보일 때는 프레젠테이션 자체에 초점을 맞추기 위해 로렘 입숨을 사용한다.
+
 ### Headings
 
 To create headings, use hash symbols (#) followed by a space. The number of hash symbols indicates the heading level.
 
 ```md
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 ```
 
@@ -34,9 +43,13 @@ Simply type non-indented text, surrounded by empty lines.
 
 ```md
 <!-- empty line -->
+
 I really like using Markdown.
+
 <!-- empty line -->
+
 I think I'll use it to format all of my content from now on.
+
 <!-- empty line -->
 ```
 
@@ -51,11 +64,12 @@ I think I'll use it to format all of my content from now on.
 Use double `*` or `_` to denote bold text.
 
 ```md
-it was the **best** of times, 
-it was the __worst__ of times
+it was the **best** of times,
+it was the **worst** of times
 ```
+
 It was the **best** of times,<br/>
-it was the __worst__ of times
+it was the **worst** of times
 
 ---
 
@@ -64,11 +78,12 @@ it was the __worst__ of times
 Use single `*` to denote italic text.
 
 ```md
-it was the age of *wisdom*, 
-it was the age of *foolishness*
+it was the age of _wisdom_,
+it was the age of _foolishness_
 ```
-it was the age of *wisdom*,<br/>
-it was the age of *foolishness*
+
+it was the age of _wisdom_,<br/>
+it was the age of _foolishness_
 
 ---
 
@@ -77,11 +92,12 @@ it was the age of *foolishness*
 Use `*`, `**` and `_` to combine effects.
 
 ```md
-it was the season of ***light***, 
-it was the season of *__darkness__*
+it was the season of **_light_**,
+it was the season of _**darkness**_
 ```
-it was the season of ***light***,<br/> 
-it was the season of *__darkness__*
+
+it was the season of **_light_**,<br/>
+it was the season of _**darkness**_
 
 ---
 
@@ -90,8 +106,8 @@ it was the season of *__darkness__*
 Use triple `---` to denote a line break.
 
 ```md
-<!-- empty line -->
----
+## <!-- empty line -->
+
 <!-- empty line -->
 ```
 
@@ -140,15 +156,15 @@ Add a number followed by a period for items. For sub items, indent.
 ```md
 1. Item 1
 2. Item 2
-    1. Sub item 1
-    2. Sub item 2
+   1. Sub item 1
+   2. Sub item 2
 3. Item 3
 ```
 
 1. Item 1
 2. Item 2
-    1. Sub item 1
-    2. Sub item 2
+   1. Sub item 1
+   2. Sub item 2
 3. Item 3
 
 ---
@@ -160,15 +176,15 @@ Add a `-` or `+` for items. Don't mix. For sub items, indent.
 ```md
 - Item 1
 - Item 2
-    - Sub item 1
-    - Sub item 2
+  - Sub item 1
+  - Sub item 2
 - Item 3
 ```
 
 - Item 1
 - Item 2
-    - Sub item 1
-    - Sub item 2
+  - Sub item 1
+  - Sub item 2
 - Item 3
 
 ---
@@ -319,18 +335,18 @@ Combine a list with 2 square brackets. `spc` incomplete `x` complete.
 Use `-` for header, `|` for columns, `:` for alignment.
 
 ```md
-| Item    | Ct  |
-| :------ | --: |
-| Bread   | 1   |
-| Milk    | 1   |
-| Haribo  | 10  |
+| Item   |  Ct |
+| :----- | --: |
+| Bread  |   1 |
+| Milk   |   1 |
+| Haribo |  10 |
 ```
 
-| Item    | Buy |
-| :------ | --: |
-| Bread   | 1   |
-| Milk    | 1   |
-| Haribo  | 10  |
+| Item   | Buy |
+| :----- | --: |
+| Bread  |   1 |
+| Milk   |   1 |
+| Haribo |  10 |
 
 ---
 
@@ -377,9 +393,9 @@ Denote a code block by enclosing a section of valid code in triple backticks. Sy
 ````
 
 ```js
-  function hello() {
-    console.log("hello world");
-  }
+function hello() {
+  console.log("hello world");
+}
 ```
 
 ---
@@ -392,6 +408,3 @@ https://www.markdownguide.org/basic-syntax
 https://www.markdownguide.org/extended-syntax/
 
 ---
-
-
-
