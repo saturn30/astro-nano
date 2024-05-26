@@ -6,7 +6,7 @@ date: "2024.05.26"
 
 유용한 라이브러리를 찾아서 기록차 글을 남긴다. 이 라이브러리는 비동기 함수 동시 실행 수를 제한한다.
 
-[async-sema github](https://github.com/vercel/async-sema)
+[github](https://github.com/vercel/async-sema)
 
 사용 방법은 아래와 같다.
 
@@ -87,7 +87,7 @@ export function createSema<T>(n: number) {
 
 // main.ts
 import { sleep } from "radash";
-import { createSema } from "./sema";
+import { createSema } from "./createSema";
 
 const { withLock } = createSema(5);
 
